@@ -107,7 +107,7 @@ const Profile = () => {
                   id="name"
                   value={form.name}
                   onChange={e => setForm(prev => ({ ...prev, name: e.target.value }))}
-                  placeholder="John Doe"
+                  placeholder="Aarav Sharma"
                 />
               </div>
               <div className="space-y-2">
@@ -119,7 +119,7 @@ const Profile = () => {
                   type="email"
                   value={form.email}
                   onChange={e => setForm(prev => ({ ...prev, email: e.target.value }))}
-                  placeholder="john@example.com"
+                  placeholder="aarav@example.in"
                 />
               </div>
               <div className="space-y-2">
@@ -130,7 +130,7 @@ const Profile = () => {
                   id="phone"
                   value={form.phone}
                   onChange={e => setForm(prev => ({ ...prev, phone: e.target.value }))}
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 98765 43210"
                 />
               </div>
               <div className="space-y-2">
@@ -152,7 +152,7 @@ const Profile = () => {
                   id="location"
                   value={form.location}
                   onChange={e => setForm(prev => ({ ...prev, location: e.target.value }))}
-                  placeholder="San Francisco, CA"
+                  placeholder="Mumbai, Maharashtra"
                 />
               </div>
               <div className="space-y-2 sm:col-span-2">

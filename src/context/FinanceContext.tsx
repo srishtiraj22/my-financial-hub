@@ -12,11 +12,11 @@ export interface UserProfile {
 }
 
 const defaultProfile: UserProfile = {
-  name: "Alex Johnson",
-  email: "alex@finvue.com",
-  phone: "+1 (555) 123-4567",
+  name: "Aarav Sharma",
+  email: "aarav@finvue.in",
+  phone: "+91 98765 43210",
   jobTitle: "Financial Analyst",
-  location: "San Francisco, CA",
+  location: "Mumbai, Maharashtra",
   bio: "Passionate about personal finance and data-driven decisions.",
   photo: "",
 };
